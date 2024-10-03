@@ -19,7 +19,7 @@ public interface DbConnections {
         }
     }
     void select();
-    void insert();
+    void insert(Product product);
     void delete();
     void update();
 }
